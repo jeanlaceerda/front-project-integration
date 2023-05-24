@@ -10,6 +10,7 @@ import { FinancialComponent } from './components/financial/financial.component';
 import { LoginComponent } from './components/login/login.component';
 import { NewUserComponent } from './components/new-user/new-user.component';
 import { RememberPasswordComponent } from './components/remember-password/remember-password.component';
+import { TestComponent } from './components/test/test.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RememberPasswordComponent } from './components/remember-password/rememb
     FinancialComponent,
     LoginComponent,
     NewUserComponent,
-    RememberPasswordComponent
+    RememberPasswordComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
